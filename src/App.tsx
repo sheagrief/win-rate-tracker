@@ -3,7 +3,6 @@ import "./App.css";
 
 import RoleTable from "./components/Table";
 import {
-  initialRoles,
   loadRolesFromLocalStorage,
   saveRolesToLocalStorage,
 } from "./data/data";
