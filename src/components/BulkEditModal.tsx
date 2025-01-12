@@ -35,7 +35,7 @@ const BulkEditModal: React.FC<BulkEditModalProps> = ({ isOpen, onClose, roles, o
           {updatedRoles.map((role) => (
             <div key={role.id} className="mb-2">
               <p className="font-bold">{role.role}</p>
-              <div className="flex">
+              <div className="flex justify-center items-center">
                 <input
                   type="number"
                   className="w-16 border rounded px-2"

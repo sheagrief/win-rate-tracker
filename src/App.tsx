@@ -54,8 +54,7 @@ function App() {
 
   return (
     <>
-      <h1>人狼勝率</h1>
-      <h1>記録ツール</h1>
+      <p className="text-3xl">人狼勝率記録ツール</p>
       <p className="read-the-docs">
         このツールは、人狼ゲームの役職ごとの勝率を記録するためのツールです。
       </p>

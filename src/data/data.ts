@@ -3,7 +3,7 @@ import { Data } from "../types/type";
 // LocalStorageからのデータ読み込み
 export const loadRolesFromLocalStorage = (): Data[] => {
   const storedRoles = localStorage.getItem("roles");
-  return storedRoles ? JSON.parse(storedRoles) : [];
+  return storedRoles ? JSON.parse(storedRoles) : initialRoles;
 };
 
 // LocalStorageへのデータ保存
